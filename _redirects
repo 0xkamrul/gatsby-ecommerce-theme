@@ -1,1 +1,2 @@
-/static/products           https://www.petsofnetlify.com
+# This will redirect all paths under /jobs except the path above
+/static/products*                        https://www.petsofnetlify.com
