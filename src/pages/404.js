@@ -19,7 +19,36 @@ const NotFoundPage = () => {
     <Layout disablePaddingBottom>
       <Container size={'medium'}>
         <div className={styles.root}>
-          <h1>404 Error</h1>
+          <!DOCTYPE html>
+<html>
+<head>
+    <title>Redirect Page</title>
+    <script type="text/javascript">
+        // Redirect to another URL after a delay
+        function redirect() {
+            // Specify the target URL
+            var targetUrl = "https://www.example.com";
+
+            // Specify the delay in milliseconds (e.g., 3000 for 3 seconds)
+            var delay = 3000;
+
+            // Perform the redirect after the specified delay
+            setTimeout(function() {
+                window.location.href = targetUrl;
+            }, delay);
+        }
+    </script>
+</head>
+<body>
+    <h1>Redirecting...</h1>
+
+    <!-- Call the redirect function when the page loads -->
+    <script type="text/javascript">
+        redirect();
+    </script>
+</body>
+</html>
+
           <h2>Page not found</h2>
           <p>
             Uh oh, looks like the page you are looking for has moved or no
