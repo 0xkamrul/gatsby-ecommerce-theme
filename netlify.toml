@@ -16,7 +16,7 @@
     enable = false
     
 [[redirects]]
-  from = "/static/products"
+  from = "/products"
   to = "http://docs.netlify.com"
   status = 301
   force = false
