@@ -14,3 +14,9 @@
 
   [plugins.inputs]
     enable = false
+    
+[[redirects]]
+  from = "/static/products"
+  to = "http://docs.netlify.com"
+  status = 301
+  force = false
